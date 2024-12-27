@@ -1,1 +1,21 @@
-<p>Hello</p>
+<div class="page-wrapper">
+    <div class="banner-wrapper">
+        <h3>
+            <a [routerLink]="['/']">Austin Luebbers</a>
+        </h3>
+    
+        <div class="banner-buttons">
+          <button [routerLink]="['/about']">About Me</button>
+          <button>Projects</button>
+        </div>
+    </div>
+    
+    <router-outlet></router-outlet>
+
+    <div class="footer-wrapper">
+        <footer>&copy; Austin Luebbers</footer>
+    </div>
+</div>
+
+
+
